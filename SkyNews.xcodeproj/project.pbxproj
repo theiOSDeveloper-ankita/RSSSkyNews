@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6DB1AB2C4804CF00F40302 /* RSSItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DB1AA2C4804CF00F40302 /* RSSItemView.swift */; };
+		5C7F0C2D2C4553F30024ACB0 /* Pods_SkyNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44C72A6A1E3ED295A7FCAB8 /* Pods_SkyNews.framework */; };
+		5C7F0C2E2C4553F30024ACB0 /* Pods_SkyNews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E44C72A6A1E3ED295A7FCAB8 /* Pods_SkyNews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CAD8F7E2C2AAD0E009818AE /* SkyNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD8F7D2C2AAD0E009818AE /* SkyNewsApp.swift */; };
+		5CAD8F802C2AAD0E009818AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD8F7F2C2AAD0E009818AE /* ContentView.swift */; };
+		5CAD8F822C2AAD0F009818AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD8F812C2AAD0F009818AE /* Assets.xcassets */; };
+		5CAD8F852C2AAD0F009818AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD8F842C2AAD0F009818AE /* Preview Assets.xcassets */; };
+		5CAD8F902C2AADE4009818AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD8F8F2C2AADE4009818AE /* NetworkManager.swift */; };
+		5CAD8F922C2AADF1009818AE /* SkyNewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD8F912C2AADF1009818AE /* SkyNewsData.swift */; };
+		5CAD8F962C2AB285009818AE /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD8F952C2AB285009818AE /* json.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C7F0C2F2C4553F30024ACB0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C7F0C2E2C4553F30024ACB0 /* Pods_SkyNews.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C6DB1A92C4800B900F40302 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		5C6DB1AA2C4804CF00F40302 /* RSSItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSItemView.swift; sourceTree = "<group>"; };
+		5CAD8F7A2C2AAD0D009818AE /* SkyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAD8F7D2C2AAD0E009818AE /* SkyNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyNewsApp.swift; sourceTree = "<group>"; };
+		5CAD8F7F2C2AAD0E009818AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CAD8F812C2AAD0F009818AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CAD8F842C2AAD0F009818AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CAD8F8F2C2AADE4009818AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5CAD8F912C2AADF1009818AE /* SkyNewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyNewsData.swift; sourceTree = "<group>"; };
+		5CAD8F952C2AB285009818AE /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json.txt; path = ../../../../../Downloads/json.txt; sourceTree = "<group>"; };
+		5CAD8F972C2AB294009818AE /* Sample.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		6CB5C391ECFDA05477066310 /* Pods-SkyNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyNews.debug.xcconfig"; path = "Target Support Files/Pods-SkyNews/Pods-SkyNews.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7F0CE1B26E841799DF59FE /* Pods-SkyNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyNews.release.xcconfig"; path = "Target Support Files/Pods-SkyNews/Pods-SkyNews.release.xcconfig"; sourceTree = "<group>"; };
+		E44C72A6A1E3ED295A7FCAB8 /* Pods_SkyNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CAD8F772C2AAD0D009818AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7F0C2D2C4553F30024ACB0 /* Pods_SkyNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58ED7930A65FAE055E2F38B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44C72A6A1E3ED295A7FCAB8 /* Pods_SkyNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CAD8F712C2AAD0D009818AE = {
+			isa = PBXGroup;
+			children = (
+				5CAD8F7C2C2AAD0D009818AE /* SkyNews */,
+				5CAD8F7B2C2AAD0D009818AE /* Products */,
+				EC81D0D74AECEBF05C10AEC3 /* Pods */,
+				58ED7930A65FAE055E2F38B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CAD8F7B2C2AAD0D009818AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD8F7A2C2AAD0D009818AE /* SkyNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CAD8F7C2C2AAD0D009818AE /* SkyNews */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD8F8B2C2AAD75009818AE /* Models */,
+				5CAD8F972C2AB294009818AE /* Sample.json */,
+				5CAD8F7D2C2AAD0E009818AE /* SkyNewsApp.swift */,
+				5CAD8F8E2C2AADC0009818AE /* Views */,
+				5CAD8F812C2AAD0F009818AE /* Assets.xcassets */,
+				5CAD8F832C2AAD0F009818AE /* Preview Content */,
+				5C6DB1A92C4800B900F40302 /* Readme.md */,
+			);
+			path = SkyNews;
+			sourceTree = "<group>";
+		};
+		5CAD8F832C2AAD0F009818AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD8F952C2AB285009818AE /* json.txt */,
+				5CAD8F842C2AAD0F009818AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CAD8F8B2C2AAD75009818AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD8F8F2C2AADE4009818AE /* NetworkManager.swift */,
+				5CAD8F912C2AADF1009818AE /* SkyNewsData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CAD8F8E2C2AADC0009818AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD8F7F2C2AAD0E009818AE /* ContentView.swift */,
+				5C6DB1AA2C4804CF00F40302 /* RSSItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC81D0D74AECEBF05C10AEC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CB5C391ECFDA05477066310 /* Pods-SkyNews.debug.xcconfig */,
+				9B7F0CE1B26E841799DF59FE /* Pods-SkyNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CAD8F792C2AAD0D009818AE /* SkyNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAD8F882C2AAD0F009818AE /* Build configuration list for PBXNativeTarget "SkyNews" */;
+			buildPhases = (
+				75434DCC282163A3938D8F0E /* [CP] Check Pods Manifest.lock */,
+				5CAD8F762C2AAD0D009818AE /* Sources */,
+				5CAD8F772C2AAD0D009818AE /* Frameworks */,
+				5CAD8F782C2AAD0D009818AE /* Resources */,
+				9D979786611A738B09C57053 /* [CP] Embed Pods Frameworks */,
+				5C7F0C2F2C4553F30024ACB0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyNews;
+			productName = SkyNews;
+			productReference = 5CAD8F7A2C2AAD0D009818AE /* SkyNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CAD8F722C2AAD0D009818AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					5CAD8F792C2AAD0D009818AE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CAD8F752C2AAD0D009818AE /* Build configuration list for PBXProject "SkyNews" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CAD8F712C2AAD0D009818AE;
+			productRefGroup = 5CAD8F7B2C2AAD0D009818AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CAD8F792C2AAD0D009818AE /* SkyNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CAD8F782C2AAD0D009818AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAD8F852C2AAD0F009818AE /* Preview Assets.xcassets in Resources */,
+				5CAD8F962C2AB285009818AE /* json.txt in Resources */,
+				5CAD8F822C2AAD0F009818AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75434DCC282163A3938D8F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D979786611A738B09C57053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyNews/Pods-SkyNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyNews/Pods-SkyNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyNews/Pods-SkyNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CAD8F762C2AAD0D009818AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAD8F902C2AADE4009818AE /* NetworkManager.swift in Sources */,
+				5CAD8F922C2AADF1009818AE /* SkyNewsData.swift in Sources */,
+				5CAD8F802C2AAD0E009818AE /* ContentView.swift in Sources */,
+				5C6DB1AB2C4804CF00F40302 /* RSSItemView.swift in Sources */,
+				5CAD8F7E2C2AAD0E009818AE /* SkyNewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CAD8F862C2AAD0F009818AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CAD8F872C2AAD0F009818AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CAD8F892C2AAD0F009818AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB5C391ECFDA05477066310 /* Pods-SkyNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyNews/Preview Content\"";
+				DEVELOPMENT_TEAM = RQB2332XHJ;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaiswal.SkyNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CAD8F8A2C2AAD0F009818AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7F0CE1B26E841799DF59FE /* Pods-SkyNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyNews/Preview Content\"";
+				DEVELOPMENT_TEAM = RQB2332XHJ;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaiswal.SkyNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CAD8F752C2AAD0D009818AE /* Build configuration list for PBXProject "SkyNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAD8F862C2AAD0F009818AE /* Debug */,
+				5CAD8F872C2AAD0F009818AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CAD8F882C2AAD0F009818AE /* Build configuration list for PBXNativeTarget "SkyNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAD8F892C2AAD0F009818AE /* Debug */,
+				5CAD8F8A2C2AAD0F009818AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CAD8F722C2AAD0D009818AE /* Project object */;
+}

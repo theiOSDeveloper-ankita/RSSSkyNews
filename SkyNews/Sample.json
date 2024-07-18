@@ -1,0 +1,331 @@
+{
+	"rss": {
+		"channel": {
+			"link": [
+				{
+					"_href": "https://feeds.skynews.com/feeds/rss/uk.xml",
+					"_rel": "self",
+					"_type": "application/rss+xml",
+					"__prefix": "atom"
+				},
+				"https://news.sky.com/uk"
+			],
+			"title": "UK News - The latest headlines from the UK | Sky News",
+			"image": {
+				"title": "UK News - The latest headlines from the UK | Sky News",
+				"url": "https://e3.365dm.com/skynews/logo.png",
+				"link": "https://news.sky.com/uk"
+			},
+			"description": "Expert comment and analysis on the latest UK news, with headlines from England, Scotland, Northern Ireland and Wales.",
+			"language": "en-GB",
+			"copyright": "Copyright 2024, Sky UK. All Rights Reserved.",
+			"lastBuildDate": "Tue, 25 Jun 2024 05:38:00 +0100",
+			"category": "Sky News",
+			"ttl": "1",
+			"item": [
+				{
+					"title": "Julian Assange flies out of UK after being freed in US plea deal",
+					"link": "https://news.sky.com/story/julian-assange-will-not-be-extradited-to-the-us-after-reaching-plea-deal-13158340",
+					"description": [
+						"US authorities have agreed to drop their demand for Julian Assange to be extradited from the UK after reaching a plea deal with the WikiLeaks founder.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "Julian Assange boards his flight out of the UK Pic: Wikileaks"
+						}
+					],
+					"pubDate": "Tue, 25 Jun 2024 00:07:00 +0100",
+					"guid": "https://news.sky.com/story/julian-assange-will-not-be-extradited-to-the-us-after-reaching-plea-deal-13158340",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-julian-assange-leaving_6590205.jpg?20240625013342",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-julian-assange-leaving_6590205.jpg?20240625013342",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-julian-assange-leaving_6590205.jpg?20240625013342",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "UK has hottest day of the year so far - but cold front on the way",
+					"link": "https://news.sky.com/story/uk-weather-hottest-day-of-the-year-so-far-as-temperatures-hit-283c-but-cold-front-on-the-way-13158153",
+					"description": [
+						"The UK has experienced the hottest day of the year so far.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "Britons enjoying the sun in Merseyside. Pic: PA"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 17:03:00 +0100",
+					"guid": "https://news.sky.com/story/uk-weather-hottest-day-of-the-year-so-far-as-temperatures-hit-283c-but-cold-front-on-the-way-13158153",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-weather-uk-weather_6589913.jpg?20240624171339",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-weather-uk-weather_6589913.jpg?20240624171339",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-weather-uk-weather_6589913.jpg?20240624171339",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Even with qualification guaranteed England need to impress against Slovenia",
+					"link": "https://news.sky.com/story/even-with-qualification-guaranteed-england-need-to-impress-against-slovenia-to-prove-their-merit-13158332",
+					"description": [
+						"&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;England have the certainty of being in the knockout phase - now it's about how their path in Germany shapes up.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "England manager Gareth Southgate during a news conference. Pic: PA"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 23:07:00 +0100",
+					"guid": "https://news.sky.com/story/even-with-qualification-guaranteed-england-need-to-impress-against-slovenia-to-prove-their-merit-13158332",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-gareth-southgate-england-manager_6590156.jpg?20240624215351",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-gareth-southgate-england-manager_6590156.jpg?20240624215351",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-gareth-southgate-england-manager_6590156.jpg?20240624215351",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Jay Slater's dad says police keeping family in dark - as they share new CCTV image",
+					"link": "https://news.sky.com/story/jay-slaters-dad-says-police-keeping-family-in-dark-as-they-share-new-cctv-image-in-hope-of-finding-teen-13158112",
+					"description": [
+						"Jay Slater's father has said police have left him and his family in the dark over the search for the missing British teenager - as they shared what they hope is an image of him.",
+						{
+							"_type": "html",
+							"__prefix": "media"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 15:34:00 +0100",
+					"guid": "https://news.sky.com/story/jay-slaters-dad-says-police-keeping-family-in-dark-as-they-share-new-cctv-image-in-hope-of-finding-teen-13158112",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-cctv-image-jay-slater_6589895.jpg?20240624173644",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-cctv-image-jay-slater_6589895.jpg?20240624173644",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-cctv-image-jay-slater_6589895.jpg?20240624173644",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Family of missing teen holds on to hope - as online sleuths wade into hunt",
+					"link": "https://news.sky.com/story/jay-slaters-family-hold-on-to-hope-as-online-sleuths-travel-to-tenerife-in-hunt-for-missing-british-teen-13158193",
+					"description": [
+						"More than a week on from Jay Slater's disappearance, his dad Warren is still doing everything he can in the effort to help find his son.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "A missing persons poster for Jay Slater in Tenerife"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 18:09:00 +0100",
+					"guid": "https://news.sky.com/story/jay-slaters-family-hold-on-to-hope-as-online-sleuths-travel-to-tenerife-in-hunt-for-missing-british-teen-13158193",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-jay-slater-missing-persons_6589985.jpg?20240624182122",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-jay-slater-missing-persons_6589985.jpg?20240624182122",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-jay-slater-missing-persons_6589985.jpg?20240624182122",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "'I just killed my two kids': Court told of mother's 999 call after attacking children with knife",
+					"link": "https://news.sky.com/story/mother-killed-her-two-children-because-she-didnt-want-her-husband-to-have-them-court-told-13158293",
+					"description": [
+						"A mother dialled 999 and told the operator \"I just killed my two kids\" after attacking them with a knife, a court has been told.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "Elizabeth John and Ethan John. Pics: Staffordshire Police"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 21:40:00 +0100",
+					"guid": "https://news.sky.com/story/mother-killed-her-two-children-because-she-didnt-want-her-husband-to-have-them-court-told-13158293",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/23/06/1920x1080/skynews-elizabeth-john-ethan-john_6185505.jpg?20230612205448",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/23/06/1920x1080/skynews-elizabeth-john-ethan-john_6185505.jpg?20230612205448",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/23/06/1920x1080/skynews-elizabeth-john-ethan-john_6185505.jpg?20230612205448",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Taylor Swift gig photo was 'standout moment' of Labour campaign - but was it accidental?",
+					"link": "https://news.sky.com/story/photo-of-keir-starmer-and-his-wife-at-taylor-swift-concert-was-standout-moment-for-labour-but-was-it-accidental-or-choreographed-13158073",
+					"description": [
+						"The \"standout moment\" of Labour's election campaign happened \"probably by accident\" last week - and at a Taylor Swift concert, a party insider has told Sky News's Electoral Dysfunction podcast.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "Pics: PA"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 14:20:00 +0100",
+					"guid": "https://news.sky.com/story/photo-of-keir-starmer-and-his-wife-at-taylor-swift-concert-was-standout-moment-for-labour-but-was-it-accidental-or-choreographed-13158073",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-electoral-dysfunction_6589738.jpg?20240624135344",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-electoral-dysfunction_6589738.jpg?20240624135344",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-electoral-dysfunction_6589738.jpg?20240624135344",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Premier League clubs' losses grow despite record revenue",
+					"link": "https://news.sky.com/story/premier-league-clubs-losses-grow-despite-record-revenue-13158373",
+					"description": [
+						"Combined losses across Premier League clubs in the 2022-23 season grew by 16% despite a rise in revenue to &#163;6bn for the first time, according to a closely-watched annual review of football finances.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "File photo dated 21-05-2023 of Manchester City&#39;s Ilkay Gundogan lifting the Premier League trophy. City are bidding to add two more pieces of silverware to the Premier League trophy they have already won. Issue date: Wednesday May 31, 2023."
+						}
+					],
+					"pubDate": "Tue, 25 Jun 2024 05:38:00 +0100",
+					"guid": "https://news.sky.com/story/premier-league-clubs-losses-grow-despite-record-revenue-13158373",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/03/1920x1080/skynews-manchester-city-premier-league_6495397.jpg?20240319211937",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/03/1920x1080/skynews-manchester-city-premier-league_6495397.jpg?20240319211937",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/03/1920x1080/skynews-manchester-city-premier-league_6495397.jpg?20240319211937",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Footballer and social media influencer top career choices for children - while being PM comes last",
+					"link": "https://news.sky.com/story/footballer-and-social-media-influencer-top-career-choices-for-children-while-being-pm-comes-last-13158335",
+					"description": [
+						"Being a footballer or a gamer are the most popular career choices for children, according to a new survey - with being prime minister coming bottom of the list.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "Soccer Football - Euro 2024 - Group C - Denmark v England - Frankfurt Arena, Frankfurt, Germany - June 20, 2024 England&#39;s Jordan Pickford in action REUTERS/Wolfgang Rattay"
+						}
+					],
+					"pubDate": "Mon, 24 Jun 2024 23:15:00 +0100",
+					"guid": "https://news.sky.com/story/footballer-and-social-media-influencer-top-career-choices-for-children-while-being-pm-comes-last-13158335",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-england-euro-20204_6590198.jpg?20240624233840",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-england-euro-20204_6590198.jpg?20240624233840",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/06/1920x1080/skynews-england-euro-20204_6590198.jpg?20240624233840",
+						"__prefix": "media"
+					}
+				},
+				{
+					"title": "Labour to create new office for net zero in government to push green transition",
+					"link": "https://news.sky.com/story/election-2024-labour-to-create-new-office-for-net-zero-in-government-to-push-green-transition-13156557",
+					"description": [
+						"Labour will ramp up its efforts to achieve net zero with a dedicated team of officials working to eliminate carbon emissions if it wins the election, Sky News understands.",
+						{
+							"_type": "html",
+							"__prefix": "media",
+							"__text": "(Right to left) Shadow secretary of state for energy security and net zero Ed Miliband, Labour Party leader Sir Keir Starmer and Scottish Labour leader Anas Sarwar at the Port of Greenock Picture date: Friday May 31, 2024.  Stefan Rousseau/PA Wire"
+						}
+					],
+					"pubDate": "Fri, 21 Jun 2024 12:12:00 +0100",
+					"guid": "https://news.sky.com/story/election-2024-labour-to-create-new-office-for-net-zero-in-government-to-push-green-transition-13156557",
+					"enclosure": {
+						"_url": "https://e3.365dm.com/24/05/1920x1080/skynews-ed-miliband-keir-starmer_6570744.jpg?20240531192359",
+						"_length": "0",
+						"_type": "image/jpeg"
+					},
+					"thumbnail": {
+						"_url": "https://e3.365dm.com/24/05/1920x1080/skynews-ed-miliband-keir-starmer_6570744.jpg?20240531192359",
+						"_width": "1920",
+						"_height": "1080",
+						"__prefix": "media"
+					},
+					"content": {
+						"_type": "image/jpeg",
+						"_url": "https://e3.365dm.com/24/05/1920x1080/skynews-ed-miliband-keir-starmer_6570744.jpg?20240531192359",
+						"__prefix": "media"
+					}
+				}
+			]
+		},
+		"_xmlns:atom": "http://www.w3.org/2005/Atom",
+		"_xmlns:media": "http://search.yahoo.com/mrss/",
+		"_version": "2.0"
+	}
+}
